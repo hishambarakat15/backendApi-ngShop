@@ -1,7 +1,7 @@
 const express = require('express');
 const { Promise } = require('mongoose');
 const { Order } = require('../models/order');
-const { OrderItem } = require('../models/order_Item');
+const { OrderItem } = require('../models/order_item');
 const router = express.Router();
 
 router.get('/', async(req,res)=>{
